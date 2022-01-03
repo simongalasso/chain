@@ -125,6 +125,10 @@ construct_runtime!(
         Sgx: ternoa_sgx = 104,
         TimedEscrow: ternoa_timed_escrow = 105,
         AssociatedAccounts: ternoa_associated_accounts = 106,
+
+        // Integritee
+        Teerex: integritee_teerex::{Pallet, Call, Config, Storage, Event<T>} = 130,
+        Teeracle: integritee_teeracle::{Pallet, Call, Storage, Event<T>} = 131,
     }
 );
 
